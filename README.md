@@ -20,12 +20,12 @@ freebsd-armv7/    freebsd-x86_64/  linux-armv7eb/  linux-ppc32/   linux-ppc64_le
 To use a specific library when analyzing a binary, run the "Type Manager:
 Load Type Library" command and select the type library to load:
 
-![Load Library](img/1.png)
+![Load Library](img/2.png)
 
 A helper function to generate type libraries from C header files can be ran
 with the "Type Manager: Generate Type Library" command.
 
-![Generate Library](img/2.png)
+![Generate Library](img/1.png)
 
 When using this function, a standard header file most likely has to be tweaked
 to appease the Binary Ninja parser. In particular, you will probably need to
