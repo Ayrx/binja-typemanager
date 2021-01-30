@@ -55,7 +55,7 @@ def generate_single_platform(bv):
         typelib = generate_typelib(platform, header_file.result, name.result)
         typelib.write_to_file(save_file.result)
     except SyntaxError as e:
-        show_message_box("Error", e.msg.decode())
+        show_message_box("Error", e.msg)
 
 
 def generate_all_platforms(bv):
@@ -72,7 +72,7 @@ def generate_all_platforms(bv):
             path = typelib_path / p.name / "{}.bntl".format(file_name.result)
             typelib.write_to_file(str(path.resolve()))
     except SyntaxError as e:
-        show_message_box("Error", e.msg.decode())
+        show_message_box("Error", e.msg)
 
 
 def generate_typelib(platform, source_file, typelib_name):
