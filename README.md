@@ -1,7 +1,7 @@
 # Binary Ninja Type Manager
 
 This plugin automatically loads user generated
-[type libraries][binja-type-libraries] from the `~/.binaryninja.typelib`
+[type libraries][binja-type-libraries] from the `~/.binaryninja/typelib`
 directory.
 
 ## Usage
