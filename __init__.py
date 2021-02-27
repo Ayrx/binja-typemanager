@@ -100,19 +100,19 @@ def select_typelib(bv):
 
 
 PluginCommand.register(
-    "Type Manager: Generate Type Library [Single Platform]",
+    "Type Manager\Generate Type Library [Single Platform]",
     "Generate a type library for a single platform.",
     generate_single_platform,
 )
 
 PluginCommand.register(
-    "Type Manager: Generate Type Library [All Platforms]",
+    "Type Manager\Generate Type Library [All Platforms]",
     "Generate a type library for all Binary Ninja platforms.",
     generate_all_platforms,
 )
 
 PluginCommand.register(
-    "Type Manager: Load Type Library",
+    "Type Manager\Load Type Library",
     "Load a type library for use in the binary view.",
     select_typelib,
 )
